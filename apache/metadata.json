@@ -1,0 +1,15 @@
+{
+  "name": "devops-apache",
+  "version": "0.1.0",
+  "author": "SHivendra Sharma",
+  "summary": "Install and configure apache",
+  "license": "Apache-2.0",
+  "source": "https://github.com/devopstest0/apache.git",
+  "project_page": "https://github.com/devopstest0/apache",
+  "issues_url": "https://github.com/devopstest0/apache/issues",
+  "dependencies": [
+    {"name":"puppetlabs-stdlib","version_requirement":">= 1.0.0"}
+  ],
+  "data_provider": null
+}
+
