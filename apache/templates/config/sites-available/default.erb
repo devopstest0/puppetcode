@@ -2,7 +2,7 @@
 	ServerAdmin webmaster@localhost
 	ServerName  <%= @virtual_host_url %>
 
-	JkMount /* worker1
+	JkMount /helloproject* worker1
 
 	DocumentRoot /var/www
 	<Directory />
