@@ -3,7 +3,7 @@
 
 cd /etc/puppetlabs/code/environments_new/
 
-for branch in staging
+for branch in staging production
 do 
 if [[ -d $branch ]] 
 then
