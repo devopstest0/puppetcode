@@ -12,7 +12,7 @@ file {'/apps/apache-tomcat-7.0.69/webapps/helloproject.war':
 
 exec {'restart_tomcat':
   cwd => '/apps/',
-  command => "/bin/sh -c 'cd /apps/apache-tomcat-7.0.69/bin/ && ./shutdown.sh && sleep 10 && ./startup.sh '",
+  command => "/bin/sh -c 'cd /apps/apache-tomcat-7.0.69/bin/ && ./shutdown.sh ; sleep 10; ./startup.sh '",
   refreshonly => true,
   subscribe => File['/apps/apache-tomcat-7.0.69/webapps/helloproject.war'],
 }
