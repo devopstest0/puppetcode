@@ -1,8 +1,8 @@
 
 class apache::config {
 
-$app_server 		= 	"192.168.1.104"
-$virtual_host_url 	= 	"mypuppet.node.com"
+$app_server 		= 	"192.168.1.113"
+$virtual_host_url 	= 	"mypuppet.newnode.com"
 
 file { '/etc/apache2/apache2.conf':
   ensure  => 'file',
